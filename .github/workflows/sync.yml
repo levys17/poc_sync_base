@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
       - name: Run GitHub File Sync
-        uses: Redocly/repo-file-sync-action@main
+        uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: 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
